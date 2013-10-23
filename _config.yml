@@ -24,7 +24,7 @@ theme:
   name: Philip Jagielski
   email: philipjagielski@gmail.com
 
-  #google_analytics_key: UA-xxxx-x
+  google_analytics_key: UA-21100317-2
 
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: false
