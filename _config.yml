@@ -1,0 +1,30 @@
+# General Jekyll Config
+pygments: true
+url: http://philipjagielski.com
+lsi: false
+exclude: [README.md, .gitignore, exportAWSCreds]
+
+# Theme customization
+theme:
+  # Color for top bar, links, etc
+  highlight_color: '#3498db'
+
+  # Profile links on the left sidebar
+  social:
+    github: positron
+    linkedin: philipjagielski
+    gplus: 110552447039675960964
+    stackoverflow: 348619
+    stackexchange: 348619
+    bitbucket: philipj
+    twitter: philipjagielski
+    facebook: philipjagielski
+    tumblr: asdf
+
+  name: Philip Jagielski
+  email: philipjagielski@gmail.com
+
+  #google_analytics_key: UA-xxxx-x
+
+  # Toggle "Postings are my own" disclaimer in footer
+  show_disclaimer: false

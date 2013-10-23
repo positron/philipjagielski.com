@@ -1,0 +1,20 @@
+# Authentication with Amazon S3
+s3_id: <%= ENV['pj_s3_id'] %>
+s3_secret: <%= ENV['pj_s3_secret'] %>
+
+# What bucket to upload files to
+s3_bucket: philipjagielski.com
+
+# gzip files on S3. S3 doesn't respect the Accept-Encoding http header, so web clients,
+# such as IE6 behind some proxies, that don't support gzip are just out of luck. The
+# bandwidth tradeoff is worth it to me though.
+gzip: true
+
+# max number of simultaneous s3 operations
+concurrency_level: 50
+
+# cache control (in seconds)
+max_age: 30
+
+# reduce my bill from pennies to fractions of pennies :-P
+#s3_reduced_redundancy: true
