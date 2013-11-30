@@ -1,0 +1,8 @@
+{% if site.theme.google_analytics_key %}
+<script type="text/javascript">
+window.onerror = function(message, url, line) {
+  ga('send', 'event', 'error', message, url + " (" + line + ")", {'nonInteraction': true});
+  return true;
+};
+</script>
+{% endif %}
