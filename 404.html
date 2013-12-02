@@ -1,0 +1,15 @@
+---
+layout: default
+title: File not found!
+---
+
+<h1>Sorry, this URL doesn't exist!</h1>
+
+<h3>Shoot me an email and let me know what you were looking for.</h3>
+
+{% if site.theme.google_analytics_key %}
+<!-- Letting google analytics know about this error. -->
+<script type="text/javascript">
+  ga('send', 'event', '404_error', document.URL, {'nonInteraction': true});
+</script>
+{% endif %}
