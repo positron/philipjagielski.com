@@ -1,8 +1,8 @@
 # General Jekyll Config
-pygments: true
 url: http://philipjagielski.com
 lsi: false
 exclude: [README.md, .gitignore, exportAWSCreds]
+timezone: America/Chicago
 
 # Theme customization
 theme:
